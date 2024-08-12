@@ -1,0 +1,151 @@
+
+Copy code body 
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #140505;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.shopping {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shopping img {
+    width: 24px;
+    height: 24px;
+}
+
+.quantity {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list .product {
+    background-color: #530ead;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+.product button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+
+.card {
+    background-color: #912424;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    margin: 0 0 20px;
+    font-size: 22px;
+}
+
+.listCard {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listCard li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.closeshoping {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.closeshoping:hover {
+    background-color: #c82333;
+}
